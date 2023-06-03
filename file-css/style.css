@@ -1,0 +1,28 @@
+body{
+    height: 100%;
+    background: linear-gradient(to right, #0f9ebb, #32f5f8);
+    display: flex;
+}
+
+.a1{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.a2{
+    color:rgb(255, 224, 20);
+    font-size: 90px;
+    font-family:'Geologica', sans-serif;
+}
+
+.a3{
+    float: right;
+    margin-left: 450px;
+    justify-content: right;
+    display: flex;
+}
+.a4{
+    color:aliceblue;
+    font-size: 30px;
+    width: 300px;
+}
