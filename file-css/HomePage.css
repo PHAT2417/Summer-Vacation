@@ -63,6 +63,7 @@ a:hover{
 
 body{
     background-color: rgba(255, 255, 255, 0.871);
+    width: 100%;
 }
 
 #container a{
