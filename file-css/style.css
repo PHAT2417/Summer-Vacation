@@ -2,7 +2,7 @@ body{
     height: 100%;
     background: linear-gradient(to right, #0f9ebb, #32f5f8);
     display: flex;
-    background-image: url("/Summer-Vacation/Picture/image.jpg");
+    background-image: url("/Picture/image.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
