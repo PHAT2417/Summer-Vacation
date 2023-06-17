@@ -143,3 +143,8 @@ input, button, select, textarea {
   background-color: var(--c-action-primary);
   border-color: var(--c-action-primary);
 }
+
+.a1{
+  width: 100%;
+  margin-top: 20px;
+}
