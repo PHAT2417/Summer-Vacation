@@ -1,0 +1,38 @@
+.body{
+    background-color: pink;
+}
+
+.NB{
+    font-size: 19px;
+    color: black;  
+    position:relative;
+}
+
+.menu{
+    font-family:'Brush Script MT';
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-top: 70px;
+    display: inline-flex;
+      
+}
+
+.icon1{
+    font-family:'Brush Script MT';
+    font-size: 65px;
+    margin-left: 370px;
+    margin-top: 70px;
+    display: inline;
+}
+
+.icon2{
+    font-family:'Brush Script MT';
+    font-size: 65px;
+    margin-top: 70px;
+    display: inline;
+}
+
+.Tong1{
+    margin-left: 500px;
+}
+  

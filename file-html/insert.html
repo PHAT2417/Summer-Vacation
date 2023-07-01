@@ -31,7 +31,7 @@
 	<div class="modal-body">
 		<h2 class="modal-title">Upload a file</h2>
 		<p class="modal-description">Attach the file below</p>
-		<button class="upload-area">
+		<button class="upload-area" >
 			<span class="upload-area-icon">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340.531" height="419.116" viewBox="0 0 340.531 419.116">
   <g id="files-new" clip-path="url(#clip-files-new)">
@@ -48,9 +48,12 @@
 	</div>
 	<div class="modal-footer">
 		<button class="btn-secondary">Cancel</button>
-		<button class="btn-primary">Upload File</button>
+		<button class="btn-primary" id="upload" onclick="uploadImage()">Upload File</button>
 	</div>
 </div>
-  
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<script src="/file-js/insert.js"></script>
 </body>
 </html>
