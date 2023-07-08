@@ -93,3 +93,24 @@ const database = firebase.database();
     }
   }
 
+    function login() {
+    let email = document.querySelector('#email').value;
+    let password = document.querySelector('#password').value;
+
+    if (validateEmail(email) == false || validatePassword(password) == false) {
+        alert('Sai tk mk rồi ku >:[');
+        return;
+    }
+
+    auth.signInWithEmailAndPassword(email, password)
+        .then(() => {
+            alert('Đăng nhập thành công!');
+
+        })
+        .catch((error) => {
+            let error_code = error.code;
+            let error_message = error.message;
+
+            alert(error_message);
+        });
+    }
