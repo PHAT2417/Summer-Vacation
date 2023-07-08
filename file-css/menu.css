@@ -12,7 +12,9 @@
     font-family:'Brush Script MT';
     font-size: 65px;
     text-transform: capitalize;
+    margin-top: 70px;
     display: inline-flex;
+      
 }
 
 .icon1{
