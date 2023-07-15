@@ -114,3 +114,20 @@ const database = firebase.database();
             alert(error_message);
         });
     }
+  
+  
+  function signInAnonymously() {
+    firebase
+      .auth()
+      .signInAnonymously()
+      .then(() => {
+        // Success, the user is logged in anonymously
+        alert("Đăng nhập ẩn danh thành công...");
+        // You can perform additional actions or redirect the user to another page
+      })
+      .catch((error) => {
+        // An error occurred during anonymous login
+        alert("Error logging in anonymously: " + error.message);
+      });
+  }
+  
