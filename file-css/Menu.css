@@ -1,175 +1,178 @@
-.Tong{
-    background-color: #d4eebe;
-    width: full;
-    padding: 50px ;
-    height: 460px;
-}
-
-.footer{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 50px;
-    margin-left: 30px;
-    color: black;
-    padding-top: 20px;
-}
-
-.Logo{
-    width: 230px;
-    height: 230px;
-    margin-right: 50px;
-    margin-left: 10px ;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.Font{
-    display: inline;
-    margin-right: 100px;
-    margin-top: 80px;
-    margin-left: 80px;
-}
-
-.Tong3{
-    width: 450px;
-    margin-left: 20px;
-    margin-right: 30px;
-    margin-top: 10px;
-    height: 240px;
-}
-
-.img{
-    width: 450px;
-    height: 240px;
-}
-
-.footer h1{
-    font-size: 30px;
-    text-align: center;
-}
-
-.footer p{
-    font-size: 15px;
-    text-align: justify;
-}
-
-.contact{
-    font-size: 35px;
-    color: black;
-}
-
-.GT1{
-    width: 25%;
-}
-
-
-@media screen and (max-width : 862px) {
-
-    .Tong{
-        background-color: #d4eebe;
-        width: 750px;
-        padding: 20px ;
-        height: 460px;
-    }
-
-    .contact{
-        font-size: 35px;
-        color: black;
-        margin-right: 60px;
-        margin-left: 20px;
-        margin-top: 30px;
-    }
-
-    .Tong3{
-        width: 280px;
-        height: 140px;
-        margin-right: 1020px;
-    }
-
-    .img{
-        width: 250px;
-        height: 140px;
-    }
-
-    .Logo{
-        width: 220px;
-        height: 150px;
-        margin-left: 1050px;
-        margin-top: 10px;
-    }
-
-    .footer{
-        margin-right: 70px;
-        margin-left: 50px;
-        color: black;
-        padding-top: 20px;
-        justify-content: space-between;
-    }
-
-    .Font{
-        display: inline;
-        margin-right: 0px;
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-
-    .contacticon{
-        margin-left: 20px;
-    }
-
-    .GT1{
-        margin-left: 0px;
-        margin-right: 85PX;
-    }
-
-    .GT2{
-        margin-right: 85PX;
-        
-    }
-
-    .GT3{
-        margin-right: 85PX;
-    }
-
-    .GT4{
-        margin-right: 0PX;
-    }
-
-    .TD{
-        font-size: 25px;
-        
-    }
-}
 .body{
-    background-color: pink;
+    background-color: #FFCCCC;
 }
 
-.NB{
-    font-size: 19px;
+/* .NB{
+    font-size: 1em;
     color: black;  
     position:relative;
-}
+} */
 
 .menu{
     font-family:'Brush Script MT';
-    font-size: 65px;
+    font-size: 5em;
     text-transform: capitalize;
-    margin-top: 70px;
+    margin-top: 5%;
     display: inline-flex;
       
 }
 
 .icon1{
     font-family:'Brush Script MT';
-    font-size: 65px;
-    margin-left: 370px;
-    margin-top: 70px;
+    font-size: 4em;
+    margin-left: 24%;
+    margin-top: 5%;
     display: inline;
 }
 
 .icon2{
     font-family:'Brush Script MT';
-    font-size: 65px;
-    margin-top: 70px;
+    font-size: 4em;
+    margin-top: 5%;
     display: inline;
+}
+
+.page-item{
+    width: 100%; 
+    font-family:'Brush Script MT';
+    font-size: 1.8em; 
+    text-align: center;
+}
+
+.page-link{
+    color: black;
+}
+
+.Logo1{
+    width: 7%;
+    margin-left: 2%;
+}
+
+.nav-item{
+    margin-left: 2em;
+}
+
+@media screen and (max-width : 950px) {
+
+    .body{
+        width: 49em;
+    }
+
+    .page-link{
+        color: black;
+    }
+
+    .page-item{
+        font-size: 1.5em;
+    }
+
+    .menu{
+        font-size: 3em;
+    }
+
+    .icon1{
+        font-size: 3em;
+        margin-left: 28%;
+    }
+
+    .icon2{
+        font-size: 3em;
+    }
+
+    .navbar-brand{
+        margin-right: 70%;
+    }
+
+    .Logo1{
+        width: 15%;
+        margin-left: 2%;
+    }
+
+    .nav-item{
+        margin-top: 3%;
+        font-size: 1.5em;
+    }
+
+    .navbar-toggler{
+        width: 3.5em;
+        height: 3.5em;
+        margin-left: 1em;
+    }
+
+    .navbar-toggler-icon{
+        width: 2em;
+        height: 2em;
+    }
+
+    .cart-shopping{
+       padding-top: 0.8em;
+    }
+}
+
+.LK{
+    margin-top: 2em;
+    color: black;
+    margin-left: 2em;
+    font-size: 3em;
+}
+
+.foodimg{
+    width: 18em; 
+    height: 18em;
+}
+
+.foodname{
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+.foodprice{
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+.food{
+    border: 0.1em solid black;
+    border-radius: 1em;
+    background-color: white;
+    width: 18.5em;
+    height: 28em;
+    margin-left: 2.5em;
+    margin-top: 2em;
+     
+}
+
+.buygoods{
+    margin-left: 5em;
+    width: 8em;
+    height: 2.3em;
+}
+
+.buygoods:hover{
+    background-color: red;
+}
+
+.foodtong{
+    display: flex;
+    margin-left: 0.2em; 
+   
+}
+
+.foodtong1{
+    display: flex;
+    margin-left: 0.2em;
+    
+}
+
+.foodtong2{
+    display:flex;
+    
+}
+
+@media screen and (max-width : 950px){
+    .foodtong2{
+        display: block;
+    }
+
+
 }
