@@ -123,6 +123,7 @@ const database = firebase.database();
       .then(() => {
         // Success, the user is logged in anonymously
         alert("Đăng nhập ẩn danh thành công...");
+        window.location.href = "../Menu.html"
         // You can perform additional actions or redirect the user to another page
       })
       .catch((error) => {

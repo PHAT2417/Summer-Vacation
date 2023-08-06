@@ -58,6 +58,7 @@
 @media screen and (max-width: 950px) {
     .section2{
         left: 13%;
-        width: 480px;
+        width: 35em;
+        
     }
 }
